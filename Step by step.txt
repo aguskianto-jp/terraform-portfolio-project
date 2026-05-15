@@ -1,0 +1,19 @@
+Tasks:
+1. Comprehend what I build through architecture diagram
+2. Prepare static website:
+   a. clone from static website:
+   npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"
+   b. create config
+   c. build application
+   d. push to repository: terraform-portfolio-project
+3. Prepare terraform:
+   a. create state and S3 state for terraform: dynamodb (x), use_lockfile (1.11), clickOps
+   b. troubleshoot aws cli: aws configure list
+   c. build terraform resource for S3: owner, public, policy for get
+   d. build terraform resource for cloudfront: OAI, distribution (cache, geo restrictions)
+   e. output for validation
+4. Validation:
+   a. terraform init
+   b. terraform plan
+   c. terraform deploy
+   d. terraform destroy
