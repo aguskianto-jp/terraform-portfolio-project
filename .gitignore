@@ -30,7 +30,7 @@ yarn-error.log*
 .env.production.local
 
 # Local .terraform directories (contains provider binaries)
-.terraform/
+terraform-js/.terraform/
 
 # .tfstate files (contains sensitive infra data)
 *.tfstate
