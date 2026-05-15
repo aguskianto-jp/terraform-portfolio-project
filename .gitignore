@@ -30,4 +30,4 @@ yarn-error.log*
 .env.production.local
 
 # terraform folder
-/terraform-js/.terraform
+/terraform-js/.terraform/*
